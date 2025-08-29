@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+width: 1440px;
+height: 1508px;
+}
+.qora{
+width: 100%;
+height: 70px;
+background-color:#282829;
+display: flex;
+list-style: none;
+color: white;
+justify-content: end;
+}
+.ul li{
+    display: flex;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main {
+    width: 1440px;
+    height: 1508px;
+    background-color: rgb(248, 248, 248);
+    border: 2p solid blue;
+    padding: 16 8px;
+    flex-direction: column;
+    align-items: end;
+}
+
+.h1 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 185px;
+    font-size: 88px;
+    font-weight: 500;
+}
+
+.jadval {
+    width: 1240px;
+    height: 852px;
+    border-top: 484px;
+    border-left: 100px;
+    gap: 60px;
+}
+
+.card {
+    width: 1240px;
+    height: 852px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.karta {
+    width: 393px;
+    height: 396px;
+    text-align: center;
+}
+
+.bmw {
+    height: 393px;
+    height: 230px;
+    border-radius: 20px;
+}
+.karta h3{
+font-size: 30px;
+font-weight: 600px;
+
+}
+.mers{
+width: 393px;
+height: 230px;
+}
+.audi{
+width: 393px;
+height: 230px;
+}
